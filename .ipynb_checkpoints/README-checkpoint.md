@@ -98,25 +98,25 @@ You’ll upload the Python file for this assignment to your GitHub repository.
 
 * Submit the link to your GitHub project to Bootcamp Spot.
 
-## Submission Notes:
+### Submission Items:
 
 This application builds a decenterilized ledger system (blockchain-based). It displays a user friendly web interface to enter details (such as sender, receiver and amount to transfer). By using the 'Add Block' button we add the transaction correscponding to the details entered to the blockchain. The integrity of the ledger can be checked at any time using the 'Validate Chain' button.
 
-1. To run this application, clone the code from GitHub link [git@github.com:ksmaria/blockchain_homework.git] and type 'streamlit app pychain.py' in bash once you are in the correct folder ('Starter_Code'). This will open a browser window and display input fields as shown below:
+1. Clone the code from GitHub link [git@github.com:ksmaria/blockchain_homework.git] and type 'streamlit app pychain.py' once you are in the correct folder ('Starter_Code'). This will open a broswer window and display some input fields as shown below:
 ![alt=""](Images/InitialRun_Genesis.jpg)
 
-2. To add a transaction to the ledger; you need to specify a sender, receiver and amount and press 'Add Block' show below.
-![alt=""](Images/AddOneBlock.jpg). You can set a diffiulty level to be higher for a transaction that is worth more but defualt in this application is 2. Once you click 'Add Block', the pychain ledger will be updated to contain the transaction you just added.
+2. To add a transaction to the ledger; you need to specify a sender, receiver and amount and press 'Add Block' show below:
+![alt=""](Images/AddOneBlock.jpg)
 
-3. To verify a block's contents and hash you can use the 'Block Inspector' and use the drop-down to got to a particular block(transaction). This is shown on the left panel in above image.
+3. To verify the block contents and hash you can use the 'Block Inspector' on the left side as shown above. 
 
 4. Add additional blocks (transactions) to build the ledger.
 ![alt=""](Images/AddFourthBlock.jpg)
 
 5. You can validate the chain using the 'Validate Chain' which returned True for my run as shown below. This gives us the assurity that integrity of the ledger is intact.
-![alt=""](Images/ValidateChain.jpg)
+![alt=""](Images/AddFourthBlock.jpg)
 
-6. Note for self: You can also tally the hash displayed in the table for each transaction with the "Wining Hash" shown in the bash window. Bash window also shows the results of the Validation on the ledger.
+6. Note for self: You can also tally the hash displayed in the table for each transaction with the "Winnign Hash" shown in the bash window. Bash window also shows the results of the Validation.
 ![alt=""](Images/BashMessages.jpg)
 ---
 
